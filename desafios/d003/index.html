@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e Depois</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        button {
+            height: 50px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Antes e depois</h1>
+    <button onclick="executar()">Antecessor e Sucessor</button>
+
+    <script>
+        function executar() {
+            let numero = Number(prompt('Digite um número inteiro qualquer'))
+            alert(`Antes de ${numero}, temos o número ${numero - 1}.\nDepois de ${numero}, temos o número ${numero + 1}.`)
+        }
+    </script>
+</body>
+</html>
